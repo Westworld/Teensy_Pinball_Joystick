@@ -17,7 +17,7 @@ const int BUTTON_PIN[20] = {0,1,2,3,4,5,6,7,8,9,10,11,12,14,15,16,21,22,23};
 #define led_pin 13 // LED_BUILTIN
 
 int plungerout=200, plungerin=24100, plungernormal = 10000;
-// 13000 needs to be calibrated !!!!
+// 10000 needs to be calibrated !!!!
 // plunger at 0x39
 
 Adafruit_TSL2561_Unified tsl = Adafruit_TSL2561_Unified(TSL2561_ADDR_FLOAT, 12345);
